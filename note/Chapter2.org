@@ -1,3 +1,9 @@
+#+TITLE: 深入理解java虚拟机学习笔记-第1章
+#+CATEGORIES: JavaNote
+#+DESCRIPTION: 深入理解java虚拟机学习笔记
+#+KEYWORDS: Java
+#+DATE: 2018-11-08 17:03
+
 * 第2章 Java内存区域与内存溢出异常
 
 ** 运行时数据区域
@@ -7,7 +13,6 @@
   - 本地方法栈(Native Method Stack)
   - 堆(Heap)
   - 程序计数器(Program Counter Register)
-
 *** 程序计数器
 - 程序计数器(Program Counter Register)是一块比较小的内存空间,它可以看作是当前线程执行的字节码的行号指示器.
 - 由于Java虚拟机的多线程是通过线程轮流切换并分配处理器执行时间的方式来实现的,在任何一个确定的时刻,一个处理器(对于多核处理器来说是一个内核)都只会执行一条线程中的指令.
