@@ -1,4 +1,4 @@
-#+TITLE: 深入理解java虚拟机学习笔记-第1章
+#+TITLE: 深入理解java虚拟机学习笔记-第2章
 #+CATEGORIES: JavaNote
 #+DESCRIPTION: 深入理解java虚拟机学习笔记
 #+KEYWORDS: Java
